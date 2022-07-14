@@ -6,7 +6,7 @@ let grids = 50;
 let scalFact;
 
 function setup() {
-    createCanvas(1000, 800);
+    createCanvas(600, 600);
     background(255);
     translate(width/2, height/2)
     scale(1,-1)
@@ -51,6 +51,7 @@ function showGrids() {
         // // linhas de X
         line(1,-i,width,-i)
     }
+    // Determina as linhas do plano cartesiano
     stroke(0)
     strokeWeight(4)
     line(0,0,0,height)
