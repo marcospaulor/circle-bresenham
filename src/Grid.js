@@ -1,6 +1,6 @@
 class Grid{
-    constructor(g){
-        this.grid = g;
+    constructor(){
+        this.grid = 50;
         this.sF = this.scaleFactor();
     }
 
