@@ -38,8 +38,6 @@ function insertCircle() {
         } else {
             alert("Insira valores de X e Y entre -26 e 26.\nPara o raio acima de 0 e menor ou igual a 26")
         }
-    } else {
-        alert("Restam campos a serem preenchidos!")
     }
 }
 

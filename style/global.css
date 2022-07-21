@@ -125,7 +125,7 @@ a {
     color: rgb(204, 168, 100);
 }
 
-@media (max-width: 1046px) {
+@media (max-width: 1100px) {
     header{
         height: 20rem;
         display: flex;
@@ -177,9 +177,9 @@ a {
         margin-top: 1%;
     }
     input[type="number"]{
-        width: 100%;
+        width: 90%;
     }
     input[type="button"]{
-        width: 100%;
+        width: 90%;
     }
 }
