@@ -1,6 +1,6 @@
 class Grid{
     constructor(){
-        this.grid = 50;
+        this.grid = 100;
         this.sF = this.scaleFactor();
     }
 
@@ -31,7 +31,7 @@ class Grid{
             line(1,-i,width,-i);
         }
         // Determina as linhas do plano cartesiano
-        stroke(0);
+        stroke(0);//Cor da linha
         strokeWeight(4);
         line(0,0,0,height);
         line(0,0,width,0);

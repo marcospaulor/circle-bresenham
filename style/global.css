@@ -1,10 +1,124 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: 'Roboto', sans-serif;
     vertical-align: baseline;
+    box-sizing: border-box;
 }
 
+#container {
+    height: 100%;
+    width: 100%;
+}
 
+header {
+    background-color: #247c84;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #247c84;
+    color: white;
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 0 0 2rem; */
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: wheat;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.logo {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0p 20px 0px;
+    background-color: white;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.description {
+    width: 50%;
+    margin: 1rem;
+}
+
+.contact {
+    width: 30%;
+    margin-left: 2rem;
+}
+
+form {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: grey;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+input {
+    margin-left: 1rem;
+    padding: 1rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    border: none;
+    width: 5rem;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+input[type="button"] {
+    background-color: rgb(255, 98, 0);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+input[type="button"]:focus {
+    background-color: white;
+    color: rgb(255, 98, 0);
+    border: 1px solid rgb(255, 98, 0);
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    color: rgb(204, 168, 100);
+}

@@ -3,17 +3,19 @@ class CircleBresenham{
         this.raio = r;
         this.X = x;
         this.Y = y;
-        this.sF = new Grid().scaleFactor()
+        this.sF = new Grid().sF
     }
     
+    // Cálculo da escala de X
     scaleX(){
         return this.X * this.sF;
     }
 
+    // Cálculo da escala de Y
     scaleY(){
         return this.Y * this.sF
     }
-
+    // Cálculo da escala do Raio
     scaleRaio(){
         return this.raio * this.sF
     }
