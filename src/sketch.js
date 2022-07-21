@@ -4,7 +4,11 @@ let inputX = document.getElementById("x");
 let inputRaio = document.getElementById("r")
 
 function setup() {
-    createCanvas(windowWidth-50, windowHeight+200);
+    if(windowWidth > 1000){
+        createCanvas(windowWidth-50, windowHeight+200);
+    } else {
+        createCanvas(windowWidth-50,windowHeight-20);
+    }
     background(255);
     translate(width/2, height/2)
     scale(1,-1)
@@ -12,6 +16,12 @@ function setup() {
     // Instancia do grid
     let grid = new Grid();
     grid.drawGrid() // Desenha as linhas do grid no canvas
+}
+
+// Redimencionar canvas
+function windowResized(){
+    setup();
+    insertCircle();
 }
 
 // Insere um circulo de bresenham e sua referência

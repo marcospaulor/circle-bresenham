@@ -1,6 +1,7 @@
 class Grid{
     constructor(){
-        this.grid = 100;
+        // this.grid = 100;
+        this.grid = width > 1000 ? 100 : 36;
         this.sF = this.scaleFactor();
     }
 
