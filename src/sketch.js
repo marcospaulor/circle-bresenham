@@ -2,7 +2,7 @@
 let inputY = document.getElementById("y");
 let inputX = document.getElementById("x");
 let inputRaio = document.getElementById("r")
-
+alert("Para que funcione, insira valores de X e Y entre -26 e 26, e para o Raio maior 0 e menor ou igual a 26")
 function setup() {
     if(windowWidth > 1000){
         createCanvas(windowWidth-50, windowHeight+200);
@@ -35,8 +35,6 @@ function insertCircle() {
             circle.showCircle()
             circle.showRefCircle()
 
-        } else {
-            alert("Insira valores de X e Y entre -26 e 26.\nPara o raio acima de 0 e menor ou igual a 26")
         }
     }
 }
