@@ -173,6 +173,9 @@ a {
         flex-direction: column;
         width: 100%;
     }
+    input{
+        margin-top: 1%;
+    }
     input[type="number"]{
         width: 100%;
     }
