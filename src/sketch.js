@@ -40,5 +40,8 @@ function insertCircle() {
 
 // Limpa o Canvas
 function limparCanvas() {
+    inputX.value = ""
+    inputY.value = ""
+    inputRaio.value = ""
     return setup();
 }
