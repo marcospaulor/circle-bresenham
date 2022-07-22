@@ -1,6 +1,6 @@
 class Grid{
     constructor(){
-        // this.grid = 100;
+        // Condição ternária;
         this.grid = width > 1000 ? 100 : 36;
         this.sF = this.scaleFactor();
     }

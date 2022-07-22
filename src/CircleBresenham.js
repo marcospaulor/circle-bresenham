@@ -23,7 +23,7 @@ class CircleBresenham{
     showCircle(){
         let x = 0
         let y = this.scaleRaio()
-
+        // Variável de decisão
         let d = (3 * this.sF) - (2 * this.scaleRaio());
         this.symPlot(x,y);
         while(x <= y){
